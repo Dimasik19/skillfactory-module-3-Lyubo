@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+.header {
+    width: 100%;
+    min-height: 89px;
+    background-color: black;
+    text-align: center;
+    margin:0 auto;
+    /*position: fixed;
+    top:0;*/
+}
+
+.site_menu {
+    display: inline-block;
+    margin:0 auto;
+    
+}
+
+.site-menu > a {
+    color: rgba(224, 224, 224, 1);
+    display:inline-block;
+    font-size: 14px;
+    padding: 42px 25px 30px;
+    text-transform: uppercase;
+}
+
+.site-menu > a:hover {
+    color: yellow;
+    background-color: red;
+}
+
+.contact_link {
+    color: white;
+    background-color: red;
+    display:inline-block;
+    width: 143px;
+    height: 24px;
+    text-align: center;
+}
+
+.contact_link:hover {
+    color: yellow;
+    background-color: rgb(161, 39, 39);
+    display:inline-block;
+    text-align: center;
+}
+
+.main_image {
+    width: 551px;
+    box-shadow: 0 -10px 40px 0 rgb(124 124 124);
+}
+
+.blocks {
+    display:flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 50px;
+    background-color: #e0e0e0;
+}
+
+.cont {
+    width:40vmax;
+    font-family:'Open Sans';
+    padding:0;
+    justify-content: center;
+    /*background-color: orange;*/
+}
+
+h1 {
+    font-style:'Open Sans Bold';
+    font-size: 60px;
+}
+
+p {
+    font-style:'Open Sans';
+    font-size: 16px;
+    padding-right: 25px;
+}
+
+/*services*/
+.services {
+    display: flex;
+    max-width: 1248px;
+    margin: 0 auto;
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.services-main {
+    max-width: 540px;
+    margin-right: 100px;
+}
+
+.services-heading {
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.services-wrapped {
+    max-width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service {
+    width: 50%;
+}
+
+.services-link {
+    color: red;
+    background-color: white;
+    border-color: red;
+    width: 143px;
+    height: 24px;
+    text-align: center;
+}
+
+.logo {
+    
+    width: 40px;
+}
+
+@media screen and (max-width: 780px){
+    .services {
+        flex-wrap: wrap;
+    }
+}
+
+.footer {
+    display: flex;
+    color: rgba(184, 184, 184, 1);
+    background-color: black;
+    justify-content:space-between;
+    padding-left: 171px;
+    padding-right: 168px;
+    align-items: center;
+    height: 113px;
+}
